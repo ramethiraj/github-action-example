@@ -1,8 +1,6 @@
 name: Deploy to Azure [Dev]
 run-name: Deploying changes from ${{ github.actor }}
 
- 
-
 on:
   push:
     branches:
