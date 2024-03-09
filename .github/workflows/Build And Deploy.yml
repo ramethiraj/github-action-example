@@ -2,6 +2,7 @@ name: Deploy to Azure [Dev]
 run-name: Deploying changes from ${{ github.actor }}
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - clouddevelop
